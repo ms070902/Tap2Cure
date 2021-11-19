@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441536213388",
+    "project_id": "tap2cure",
+    "storage_bucket": "tap2cure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441536213388:android:108f0552322abb6a7826a9",
+        "android_client_info": {
+          "package_name": "com.iete.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441536213388-clcc8pa3gueqodnlksa22c0v4ekfrg8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHMVs0dgv0eRYSQ4d1uKKr2ZudZxp2qEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441536213388-clcc8pa3gueqodnlksa22c0v4ekfrg8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

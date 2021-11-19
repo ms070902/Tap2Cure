@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="0dp"
+
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity"><![CDATA[
+
+
+
+    />
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/confirmation_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_vertical"
+        android:text="Thank you for choosing our services. You will shortly receive an email of appointment confirmation for your selected time slot of"
+        android:textSize="34sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/timeSlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Continue"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="log out"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/petizoologo"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/petizoo"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logologo"
+
+        />
+</LinearLayout>

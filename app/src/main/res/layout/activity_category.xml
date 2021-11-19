@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom|center_vertical"
+    android:layout_marginTop="0dp"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:text="Select Your Category"
+        android:textColor="#0D0443"
+        android:textSize="28sp"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ct_human"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_supervisor"
+            android:padding="20dp"
+            android:text="Human"
+            android:textColor="#0D0635"
+            android:textSize="23dp"
+
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ct_general_human"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_medical_services_24"
+        android:text="general" />
+
+    <Button
+        android:id="@+id/ct_eyeSpecialist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
+        android:text="eye specialist" />
+
+    <Button
+        android:id="@+id/ct_neureo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_brain"
+        android:text="neureologist" />
+
+    <Button
+        android:id="@+id/ct_cardio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_favorite_24"
+        android:text="cardiologist" />
+
+    <Button
+        android:id="@+id/ct_surgeon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_design_services_24"
+        android:text="surgeon" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ct_animals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_pets_24"
+            android:padding="20dp"
+            android:text="Animals"
+            android:textColor="#0D0635"
+            android:textSize="23dp"
+
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ct_general_animals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_medical_services_24"
+        android:text="general" />
+
+
+</LinearLayout>

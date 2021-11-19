@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tap2Cure</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="default_web_client_id_1" translatable="false">441536213388-clcc8pa3gueqodnlksa22c0v4ekfrg8i.apps.googleusercontent.com</string>
+</resources>
